@@ -1,6 +1,6 @@
-# RSS Feed Scraper & Monitor — Any Feed to JSON, CSV, Excel — n8n automation
+# RSS Feed Monitor — n8n automation
 
-This workflow runs [RSS Feed Scraper & Monitor — Any Feed to JSON, CSV, Excel](https://apify.com/q_services/rss-feed-monitor) every 24 hours, polls the Apify run, retrieves its dataset, and fails explicitly when the run is not successful.
+This workflow runs [RSS Feed Monitor](https://apify.com/q_services/rss-feed-monitor) every 24 hours, polls the Apify run, retrieves its dataset, and fails explicitly when the run is not successful.
 
 ## Install
 
@@ -16,14 +16,14 @@ No credential or personal data is included in this repository.
 
 ```json
 {
-  "startUrls": [
-    "https://feeds.bbci.co.uk/news/technology/rss.xml"
-  ],
   "keywords": [],
   "maxResults": 10,
   "proxyConfiguration": {
     "useApifyProxy": false
-  }
+  },
+  "startUrls": [
+    "https://q-services.fr/blog/rss.xml"
+  ]
 }
 ```
 
