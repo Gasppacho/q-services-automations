@@ -43,14 +43,14 @@
               "name": "actorInput",
               "type": "object",
               "value": {
-                "startUrls": [
-                  "https://feeds.bbci.co.uk/news/technology/rss.xml"
-                ],
                 "keywords": [],
                 "maxResults": 10,
                 "proxyConfiguration": {
                   "useApifyProxy": false
-                }
+                },
+                "startUrls": [
+                  "https://q-services.fr/blog/rss.xml"
+                ]
               }
             }
           ]
