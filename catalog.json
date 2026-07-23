@@ -1,5 +1,13 @@
 [
   {
+    "actorId": "ZigQl4RkZ3SNxel6k",
+    "actorName": "broken-link-checker",
+    "storeUrl": "https://apify.com/q_services/broken-link-checker",
+    "type": "n8n",
+    "updatedAt": "2026-07-23",
+    "path": "n8n/broken-link-checker"
+  },
+  {
     "actorId": "JsYyZBVI3OsyxeHJU",
     "actorName": "rss-feed-monitor",
     "storeUrl": "https://apify.com/q_services/rss-feed-monitor",
