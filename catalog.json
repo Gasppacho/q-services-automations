@@ -8,6 +8,14 @@
     "path": "n8n/broken-link-checker"
   },
   {
+    "actorId": "GWUbdt1hxWioYEEZA",
+    "actorName": "http-security-headers-checker",
+    "storeUrl": "https://apify.com/q_services/http-security-headers-checker",
+    "type": "n8n",
+    "updatedAt": "2026-07-24",
+    "path": "n8n/http-security-headers-checker"
+  },
+  {
     "actorId": "JsYyZBVI3OsyxeHJU",
     "actorName": "rss-feed-monitor",
     "storeUrl": "https://apify.com/q_services/rss-feed-monitor",
