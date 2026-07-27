@@ -22,5 +22,13 @@
     "type": "n8n",
     "updatedAt": "2026-07-22",
     "path": "n8n/rss-feed-monitor"
+  },
+  {
+    "actorId": "5jcFA2uhR3HJLAMTK",
+    "actorName": "security-txt-checker",
+    "storeUrl": "https://apify.com/q_services/security-txt-checker",
+    "type": "n8n",
+    "updatedAt": "2026-07-27",
+    "path": "n8n/security-txt-checker"
   }
 ]
