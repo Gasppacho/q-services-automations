@@ -43,14 +43,14 @@
               "name": "actorInput",
               "type": "object",
               "value": {
-                "includeRootFallback": false,
+                "startUrls": [
+                  "https://securitytxt.org"
+                ],
+                "includeRootFallback": true,
                 "maxResults": 1,
                 "proxyConfiguration": {
                   "useApifyProxy": true
-                },
-                "startUrls": [
-                  "https://securitytxt.org"
-                ]
+                }
               }
             }
           ]
@@ -340,7 +340,7 @@
     "templateCredsSetupCompleted": false,
     "qServices": {
       "actor": "https://apify.com/q_services/security-txt-checker",
-      "article": "https://q-services.fr/blog/security-txt-checker-2026-07-27-growth-guide/"
+      "article": "https://q-services.fr/blog/security-txt-checker-2026-07-26-growth-guide/"
     }
   },
   "active": false,
