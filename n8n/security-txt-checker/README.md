@@ -2,9 +2,9 @@
 
 This n8n automation use case runs [Security\.txt Checker — Security Contact Finder](https://apify.com/q_services/security-txt-checker), polls the exact Apify run, and fails explicitly when the run is not successful.
 
-Trigger one bounded portfolio run, poll the same Actor run to completion, retrieve structured domain statuses, compare them with the previous successful cycle, and route only new missing or expired exceptions through an explicit success or failure path\.
+Prepare a bounded domain list, start the Actor, poll the same run until terminal status, retrieve structured results, compare them with the prior cycle, and route only new missing or expired findings\.
 
-**Audience:** Managed security providers and vendor\-risk teams responsible for recurring checks across customer and supplier domain portfolios
+**Audience:** Security operations, vendor\-risk, compliance, and managed\-service teams monitoring portfolios of public domains
 
 
 ## Install
@@ -21,18 +21,18 @@ No credential or personal data is included in this repository.
 
 ```json
 {
-  "includeRootFallback": false,
+  "startUrls": [
+    "https://securitytxt.org"
+  ],
+  "includeRootFallback": true,
   "maxResults": 1,
   "proxyConfiguration": {
     "useApifyProxy": true
-  },
-  "startUrls": [
-    "https://securitytxt.org"
-  ]
+  }
 }
 ```
 
 ## Links
 
-- [Technical guide](https://q-services.fr/blog/security-txt-checker-2026-07-27-growth-guide/)
+- [Technical guide](https://q-services.fr/blog/security-txt-checker-2026-07-26-growth-guide/)
 - [Apify Store](https://apify.com/q_services/security-txt-checker)
