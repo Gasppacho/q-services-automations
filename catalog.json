@@ -28,7 +28,7 @@
     "actorName": "security-txt-checker",
     "storeUrl": "https://apify.com/q_services/security-txt-checker",
     "type": "n8n",
-    "updatedAt": "2026-07-27",
+    "updatedAt": "2026-07-26",
     "path": "n8n/security-txt-checker"
   }
 ]
